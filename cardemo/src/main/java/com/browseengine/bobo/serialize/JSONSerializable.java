@@ -23,7 +23,7 @@
  * send mail to owner@browseengine.com.
  */
 
-package com.browseengine.bobo.serialize;
+package com.linkedin.bobo.serialize;
 
 /**
  * Marker interface

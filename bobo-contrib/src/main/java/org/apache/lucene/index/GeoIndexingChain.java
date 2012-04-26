@@ -2,7 +2,7 @@ package org.apache.lucene.index;
 
 import org.apache.lucene.index.DocumentsWriter.IndexingChain;
 
-import com.browseengine.bobo.geosearch.bo.GeoSearchConfig;
+import com.linkedin.bobo.geosearch.bo.GeoSearchConfig;
 
 
 /**

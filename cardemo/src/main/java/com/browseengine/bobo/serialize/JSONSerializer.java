@@ -23,7 +23,7 @@
  * send mail to owner@browseengine.com.
  */
 
-package com.browseengine.bobo.serialize;
+package com.linkedin.bobo.serialize;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
@@ -36,7 +36,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.browseengine.bobo.serialize.JSONSerializable.JSONSerializationException;
+import com.linkedin.bobo.serialize.JSONSerializable.JSONSerializationException;
 
 public class JSONSerializer {
 	private static Logger logger=Logger.getLogger(JSONSerializer.class);

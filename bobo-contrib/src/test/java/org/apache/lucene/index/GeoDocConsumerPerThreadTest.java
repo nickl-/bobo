@@ -21,9 +21,9 @@ import org.springframework.test.annotation.IfProfileValue;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.browseengine.bobo.geosearch.index.IGeoIndexer;
-import com.browseengine.bobo.geosearch.index.bo.GeoCoordinate;
-import com.browseengine.bobo.geosearch.index.bo.GeoCoordinateField;
+import com.linkedin.bobo.geosearch.index.IGeoIndexer;
+import com.linkedin.bobo.geosearch.index.bo.GeoCoordinate;
+import com.linkedin.bobo.geosearch.index.bo.GeoCoordinateField;
 
 /**
  * @author Geoff Cooney

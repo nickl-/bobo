@@ -22,15 +22,15 @@ import org.apache.lucene.store.LockObtainFailedException;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
-import com.browseengine.bobo.geosearch.IGeoRecordSerializer;
-import com.browseengine.bobo.geosearch.bo.GeoRecord;
-import com.browseengine.bobo.geosearch.bo.GeoSearchConfig;
-import com.browseengine.bobo.geosearch.impl.GeoRecordComparator;
-import com.browseengine.bobo.geosearch.impl.GeoRecordSerializer;
-import com.browseengine.bobo.geosearch.impl.MappedFieldNameFilterConverter;
-import com.browseengine.bobo.geosearch.index.bo.GeoCoordinate;
-import com.browseengine.bobo.geosearch.index.bo.GeoCoordinateField;
-import com.browseengine.bobo.geosearch.index.impl.GeoSegmentReader;
+import com.linkedin.bobo.geosearch.IGeoRecordSerializer;
+import com.linkedin.bobo.geosearch.bo.GeoRecord;
+import com.linkedin.bobo.geosearch.bo.GeoSearchConfig;
+import com.linkedin.bobo.geosearch.impl.GeoRecordComparator;
+import com.linkedin.bobo.geosearch.impl.GeoRecordSerializer;
+import com.linkedin.bobo.geosearch.impl.MappedFieldNameFilterConverter;
+import com.linkedin.bobo.geosearch.index.bo.GeoCoordinate;
+import com.linkedin.bobo.geosearch.index.bo.GeoCoordinateField;
+import com.linkedin.bobo.geosearch.index.impl.GeoSegmentReader;
 
 /**
  * Superclass for GeoSearch functional test containing common methods for

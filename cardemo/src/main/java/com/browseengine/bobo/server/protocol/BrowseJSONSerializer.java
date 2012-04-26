@@ -23,7 +23,7 @@
  * send mail to owner@browseengine.com.
  */
 
-package com.browseengine.bobo.server.protocol;
+package com.linkedin.bobo.server.protocol;
 
 import java.util.Iterator;
 import java.util.List;
@@ -35,11 +35,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.browseengine.bobo.api.BrowseFacet;
-import com.browseengine.bobo.api.BrowseHit;
-import com.browseengine.bobo.api.BrowseRequest;
-import com.browseengine.bobo.api.BrowseResult;
-import com.browseengine.bobo.api.FacetAccessible;
+import com.linkedin.bobo.api.BrowseFacet;
+import com.linkedin.bobo.api.BrowseHit;
+import com.linkedin.bobo.api.BrowseRequest;
+import com.linkedin.bobo.api.BrowseResult;
+import com.linkedin.bobo.api.FacetAccessible;
 
 public class BrowseJSONSerializer {
 

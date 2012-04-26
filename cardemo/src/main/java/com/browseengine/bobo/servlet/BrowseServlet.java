@@ -23,7 +23,7 @@
  * send mail to owner@browseengine.com.
  */
 
-package com.browseengine.bobo.servlet;
+package com.linkedin.bobo.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,14 +45,14 @@ import org.apache.solr.common.params.CommonParams;
 import org.apache.solr.common.params.SolrParams;
 import org.json.JSONException;
 
-import com.browseengine.bobo.api.BrowseException;
-import com.browseengine.bobo.api.BrowseRequest;
-import com.browseengine.bobo.api.BrowseResult;
-import com.browseengine.bobo.impl.QueryProducer;
-import com.browseengine.bobo.server.protocol.BoboHttpRequestParam;
-import com.browseengine.bobo.server.protocol.BrowseJSONSerializer;
-import com.browseengine.bobo.service.BrowseService;
-import com.browseengine.bobo.service.BrowseServiceFactory;
+import com.linkedin.bobo.api.BrowseException;
+import com.linkedin.bobo.api.BrowseRequest;
+import com.linkedin.bobo.api.BrowseResult;
+import com.linkedin.bobo.impl.QueryProducer;
+import com.linkedin.bobo.server.protocol.BoboHttpRequestParam;
+import com.linkedin.bobo.server.protocol.BrowseJSONSerializer;
+import com.linkedin.bobo.service.BrowseService;
+import com.linkedin.bobo.service.BrowseServiceFactory;
 import com.browseengine.solr.BoboRequestBuilder;
 
 public class BrowseServlet

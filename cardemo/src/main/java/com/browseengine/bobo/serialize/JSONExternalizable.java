@@ -1,4 +1,4 @@
-package com.browseengine.bobo.serialize;
+package com.linkedin.bobo.serialize;
 
 import org.json.JSONException;
 import org.json.JSONObject;

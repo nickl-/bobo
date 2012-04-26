@@ -1,4 +1,4 @@
-package com.browseengine.bobo.server.protocol;
+package com.linkedin.bobo.server.protocol;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.browseengine.bobo.server.protocol;
+package com.linkedin.bobo.server.protocol;
 
 import java.io.IOException;
 
@@ -6,9 +6,9 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.json.JSONObject;
 
-import com.browseengine.bobo.serialize.JSONSerializable;
-import com.browseengine.bobo.serialize.JSONSerializer;
-import com.browseengine.bobo.serialize.JSONSerializable.JSONSerializationException;
+import com.linkedin.bobo.serialize.JSONSerializable;
+import com.linkedin.bobo.serialize.JSONSerializer;
+import com.linkedin.bobo.serialize.JSONSerializable.JSONSerializationException;
 
 public class JSONHandler extends ProtocolHandler {
 	private static final String protocol="json";
