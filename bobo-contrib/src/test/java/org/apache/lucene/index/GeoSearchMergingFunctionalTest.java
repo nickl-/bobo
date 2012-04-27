@@ -22,11 +22,11 @@ import org.springframework.test.annotation.IfProfileValue;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.browseengine.bobo.geosearch.bo.GeoRecord;
-import com.browseengine.bobo.geosearch.index.bo.GeoCoordinate;
-import com.browseengine.bobo.geosearch.index.impl.GeoIndexReader;
-import com.browseengine.bobo.geosearch.index.impl.GeoSegmentReader;
-import com.browseengine.bobo.geosearch.query.GeoQuery;
+import com.linkedin.bobo.geosearch.bo.GeoRecord;
+import com.linkedin.bobo.geosearch.index.bo.GeoCoordinate;
+import com.linkedin.bobo.geosearch.index.impl.GeoIndexReader;
+import com.linkedin.bobo.geosearch.index.impl.GeoSegmentReader;
+import com.linkedin.bobo.geosearch.query.GeoQuery;
 
 /**
  * Class to run GeoSearch Indexing functional tests.  These tests run 

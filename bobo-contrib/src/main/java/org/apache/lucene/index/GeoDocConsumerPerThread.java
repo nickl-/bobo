@@ -9,8 +9,8 @@ import org.apache.lucene.document.Fieldable;
 import org.apache.lucene.index.DocumentsWriter.DocState;
 import org.apache.lucene.index.DocumentsWriter.DocWriter;
 
-import com.browseengine.bobo.geosearch.index.IGeoIndexer;
-import com.browseengine.bobo.geosearch.index.bo.GeoCoordinateField;
+import com.linkedin.bobo.geosearch.index.IGeoIndexer;
+import com.linkedin.bobo.geosearch.index.bo.GeoCoordinateField;
 
 public class GeoDocConsumerPerThread extends DocConsumerPerThread {
 

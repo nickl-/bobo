@@ -5,7 +5,7 @@ import java.util.List;
 import org.apache.lucene.index.MergePolicy.MergeAbortedException;
 import org.apache.lucene.store.Directory;
 
-import com.browseengine.bobo.geosearch.merge.IGeoMergeInfo;
+import com.linkedin.bobo.geosearch.merge.IGeoMergeInfo;
 
 /**
  * Class that contains information about the ongoing Geo Merge

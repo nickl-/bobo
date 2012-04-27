@@ -16,7 +16,7 @@
   <servlet>
  
   	<servlet-name>Cardemo</servlet-name>
-  	<servlet-class>com.browseengine.bobo.servlet.BrowseServlet</servlet-class>
+  	<servlet-class>com.linkedin.bobo.servlet.BrowseServlet</servlet-class>
   	<init-param>
     	<param-name>debug</param-name>
     	<param-value>true</param-value>

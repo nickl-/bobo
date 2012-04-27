@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.HashSet;
 
-import com.browseengine.bobo.geosearch.bo.GeoSearchConfig;
-import com.browseengine.bobo.geosearch.index.IGeoIndexer;
-import com.browseengine.bobo.geosearch.index.impl.GeoIndexer;
+import com.linkedin.bobo.geosearch.bo.GeoSearchConfig;
+import com.linkedin.bobo.geosearch.index.IGeoIndexer;
+import com.linkedin.bobo.geosearch.index.impl.GeoIndexer;
 
 /**
  * 

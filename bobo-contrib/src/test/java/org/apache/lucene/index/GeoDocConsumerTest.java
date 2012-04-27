@@ -21,8 +21,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.browseengine.bobo.geosearch.bo.GeoSearchConfig;
-import com.browseengine.bobo.geosearch.index.IGeoIndexer;
+import com.linkedin.bobo.geosearch.bo.GeoSearchConfig;
+import com.linkedin.bobo.geosearch.index.IGeoIndexer;
 
 /**
  * @author Geoff Cooney

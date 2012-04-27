@@ -5,10 +5,10 @@ import java.io.IOException;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.LockObtainFailedException;
 
-import com.browseengine.bobo.geosearch.bo.GeoSearchConfig;
-import com.browseengine.bobo.geosearch.index.impl.DeletePairedExtensionDirectory;
-import com.browseengine.bobo.geosearch.merge.IGeoMergeInfo;
-import com.browseengine.bobo.geosearch.merge.IGeoMerger;
+import com.linkedin.bobo.geosearch.bo.GeoSearchConfig;
+import com.linkedin.bobo.geosearch.index.impl.DeletePairedExtensionDirectory;
+import com.linkedin.bobo.geosearch.merge.IGeoMergeInfo;
+import com.linkedin.bobo.geosearch.merge.IGeoMerger;
 
 
 /**

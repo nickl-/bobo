@@ -1,4 +1,4 @@
-package com.browseengine.bobo.test.solr;
+package com.linkedin.bobo.test.solr;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -8,7 +8,7 @@ import junit.framework.TestCase;
 
 import org.apache.solr.client.solrj.SolrQuery;
 
-import com.browseengine.bobo.api.BrowseSelection.ValueOperation;
+import com.linkedin.bobo.api.BrowseSelection.ValueOperation;
 import com.browseengine.solr.BoboRequestBuilder;
 
 public class BoboSolrTestCase extends TestCase {
